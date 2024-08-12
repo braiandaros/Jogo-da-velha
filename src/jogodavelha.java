@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/* criado por braian junior 
+ * github: braiandaros*/
+
 public class jogodavelha {
 
 	   public static void main(String[] args) {
@@ -46,7 +49,6 @@ public class jogodavelha {
 		        System.out.println("1 "+tabuleiro[1][0]+" |"+tabuleiro[1][1]+" | "+tabuleiro[1][2]);
 		        System.out.println("  --+--+--");
 		        System.out.println("2 "+tabuleiro[2][0]+" |"+tabuleiro[2][1]+" | "+tabuleiro[2][2]);
-		        
 	            break;
 	         }
 
@@ -60,4 +62,3 @@ public class jogodavelha {
 	      scanner.close();
 	   }
 	}
-
